@@ -1,7 +1,7 @@
 # nlp-impl
 Compilation of all the basic concepts of natural language processing such as text pre-processing, text classification, LSI &amp; LDA Modelling using SVD from the GENSIM python library.
 
-## Important Instructions before runnin the project
+## Important Instructions before running the project
 * The data set used in the project is 'Consumer Complaints' from [this link](https://catalog.data.gov/dataset/consumer-complaint-database). In the project, since the dataset was too big a pickle file format of the same dataset has been used to avoid space and data read issues from the csv file.
 * However, if you want to implement the algorithm on the csv file as is, just make sure to make the changes in read_csv function of pandas to create the dataframe from.
 
@@ -18,3 +18,6 @@ Compilation of all the basic concepts of natural language processing such as tex
   Function Name(s): **lsi_model_svd_ & lsi_model_**
 * Topic Modelling with LDA (Latent Dirichlet Allocation - GENSIM Library)
   Function Name: **lda_model_**
+  
+## Assignment
+The implementation of function for Topic Modelling with LSI from GENSIM library has been left unimplemented.Please go ahead and see if it gives better results that the one with SVD (Singular Value decompositon method) for LSI.
